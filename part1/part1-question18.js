@@ -9,7 +9,7 @@ let statistics = {
   
   for (property in statistics) {
     // print if first of property letter is r or if value of property is odd
-    if ((property.substr(0, 1) == "r") || (statistics[property] % 2 != 0)) {
+    if ((property.substr(0, 1) == "r") || (property.substr(0, 1) == "R") || (statistics[property] % 2 != 0)) {
       console.log(statistics[property]);
     }
   }
