@@ -19,7 +19,7 @@
     D. student['Favorite Teacher'].name
 
     E. student.courseLoad[0]
-14. A. ‘3’ + 2, output: '32', reasoning: '3' is a string and thus JavaScript does a string concatenation when it  sees the plus sign immediately following a string. Thus 2 is converted to a string, and concatenating '2' with '3' results in the string '32'.
+14. **A. ‘3’ + 2, output: '32'**, reasoning: '3' is a string and thus JavaScript does a string concatenation when it  sees the plus sign immediately following a string. Thus 2 is converted to a string, and concatenating '2' with '3' results in the string '32'.
     B. ‘3’ - 2, output: 1, reasoning: '3' is a string, however, JavaScript does not recognize the minus sign as a string operation because there is no string subtraction in JavaScript. Therefore, JavaScript converts the string '3' to a number and subtracts 2 from 3, resulting in the number 1.
     C. 3 + null, output: 3, reasoning: 3 is a number, and thus when JavaScript sees that we are trying to add null to a number, it converts null to its numerical equivalent, which is 0, to fix the type mismatch. Therefore, JavaScript adds 3 to 0, resulting in the number 3.
     D. '3' + null, output: '3null', reasoning: '3' is a string and thus JavaScript does a string concatenation when it  sees the plus sign immediately following a string. Thus null is converted to a string, and concatenating 'null' with '3' results in the string '3null'.
